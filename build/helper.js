@@ -15,4 +15,4 @@ var _path2 = _interopRequireDefault(_path);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var root = exports.rootPath = (0, _slash2.default)(global.rootPath || process.cwd());
+var root = exports.root = (0, _slash2.default)(global.rootPath || process.cwd());
