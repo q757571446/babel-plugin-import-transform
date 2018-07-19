@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-import-transform",
+  "version": "1.0.0",
+  "description": "babel plugin to transform import",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src/ -d lib/"
+  },
+  "keywords": [
+    "babel",
+    "plugin"
+  ],
+  "author": "kevin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "micromatch": "^3.1.10",
+    "slash": "^2.0.0"
+  },
+  "repository": {
+   "type": "git",
+   "url": "git+https://github.com/heartOfblack/Tool.git"
+  }
+}
