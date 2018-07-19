@@ -1,13 +1,9 @@
 'use strict';
 var mm = require('micromatch');
 
-Object.defineProperty(exports, "__esmodule", {
-  value: true
-});
-
 var _helper = require('./helper');
 
-exports.default = function (_ref) {
+module.exports = function (_ref) {
   var t = _ref['types'];
 
   var visitor = {
@@ -15,7 +11,7 @@ exports.default = function (_ref) {
       var source = path.node.source.value// import
       var options = state.opts// options
       var compiler = state.file.opts.filename// current
-      var matched = Object.keys(options).filter(key => mm.ismatch(source, key))
+      var matched = Object.keys(options).filter(key => mm.isMatch(source, key))
       if(matched&&matched.length){
         var option = options[matched[0]]
         if (/\.js$/i.test(option)){
@@ -30,7 +26,7 @@ exports.default = function (_ref) {
   };
   return {
     'visitor': {
-      program: function program(path, state) {
+      Program: function (path, state) {
         path.traverse(visitor, state);
       }
     }
