@@ -1,7 +1,7 @@
 'use strict';
 var mm = require('micromatch');
 
-Object.defineproperty(exports, "__esmodule", {
+Object.defineProperty(exports, "__esmodule", {
   value: true
 });
 

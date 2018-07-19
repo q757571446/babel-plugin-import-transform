@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-import-transform",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "babel plugin to transform import",
   "main": "index.js",
   "scripts": {
