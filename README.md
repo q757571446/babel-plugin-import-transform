@@ -5,9 +5,9 @@
  ```
  import Library from 'library'
  ```
- transform
+ transform alias to relative path
  ```
- import Library from 'library/path'
+ import Library from '../library'
  ```
 
 ### Install
