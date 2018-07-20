@@ -16,7 +16,7 @@
  ```
 
 ### Use
- Add it to your plugins array in your babel config, e.g. a .babelrc file.
+ Add it to your plugins array in your babel config ```.babelrc``` file.
  ```
 {
   "plugins": [
