@@ -11,12 +11,12 @@
   ],
   "author": "kevin",
   "license": "ISC",
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q757571446/babel-plugin-import-transform.git"
+  },
+  "dependencies": {
     "micromatch": "^3.1.10",
     "slash": "^2.0.0"
-  },
-  "repository": {
-   "type": "git",
-   "url": "git+https://github.com/q757571446/babel-plugin-import-transform.git"
   }
 }

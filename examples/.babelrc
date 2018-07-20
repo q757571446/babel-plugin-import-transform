@@ -1,0 +1,6 @@
+{
+  "presets": ["es2016"],
+  "plugins": [["babel-plugin-import-transform", {
+        "lib/**": 'transform.js'
+      }]],
+}
