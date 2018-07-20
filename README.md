@@ -35,5 +35,5 @@
  }
  ```
 ### Regular
- use micromatch as regular match import path
+ use micromatch as regular match "core/**"
 
