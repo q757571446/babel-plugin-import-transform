@@ -31,7 +31,7 @@
  transform.js in project root 
  ```
  module.exports = function(importName, compileFile) {
-  return importName + "path" 
+  return "../" + importName + "path" 
  }
  ```
 ### Regular
